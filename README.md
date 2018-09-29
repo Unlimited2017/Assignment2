@@ -1,7 +1,9 @@
 # Assignment2
 1)The first function of assignment
+ # In IDLE, press F5, then inputing "addBinary('1101', '100')", Enter to run
+ 
 def addBinary(x, y):
-    # In IDLE, press F5, then inputing "addBinary('1101', '100')", Enter to run
+   
         max_len = max(len(x), len(y)) 
   
         x = x.zfill(max_len) 
@@ -27,8 +29,10 @@ def addBinary(x, y):
  
  2)The second function of the assignment2
  
+  #In IDLE, press F5, then inputting plusOne([1, 2, 3]), press enter to run
+  
 def plusOne(digits):
-       #In IDLE, press F5, then inputting plusOne([1, 2, 3]), press enter to run
+      
         plus = 1
         for i in range(len(digits)-1, -1, -1):
             if digits[i] + plus > 9:
@@ -45,10 +49,9 @@ def plusOne(digits):
 
 
   3)  The third function of the assignment2
-  
+# in IDLE, press F5, and then inputing "roman_to_integers('V')", press enter to run  
+
 def roman_to_integers(roman_string):
-    
-        # in IDLE, press F5, and then inputing "roman_to_integers('V')", press enter to run 
        
         num_tuple = [1000, 500, 100, 50, 10, 5, 1]
         roman_tuple = ['M', 'D', 'C', 'L', 'X', 'V', 'I']
